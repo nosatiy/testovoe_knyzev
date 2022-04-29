@@ -1,0 +1,7 @@
+"select date, pos, sum(amount) as amount from test group by pos, date order by date, pos;"
+
+date = 'APPLICATION_DT'
+pos = 'INTERNAL_ORG_ORIGINAL_RK'
+amount = 'LOAN_AMOUNT'
+
+Зависит от контекста таблицы.
